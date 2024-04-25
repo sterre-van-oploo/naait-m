@@ -7,72 +7,6 @@ body {
     display: flex;
     padding: 10px;
     flex-direction: column;
-    font-family: monospace; 
-}
-
-.content {
-    background: #22ae34;
-    height: 100%;
-    border-radius: 10px;
-    padding: 10px;
-    position: relative;
-    z-index: 1;
-}
-
-.content-fill {
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    right: 50%; 
-    bottom: 50%; 
-    background: #1c1b65;
-    border-radius: 15px;
-    z-index: 2;
-    padding: 20px;
-}
-
-.header, .upper-body { 
-    position: relative;
-}
-
-.content-container {
-    position: relative;
-    flex: 1;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.spacer-1, .spacer-2 {
-    flex: 25;
-    visibility: hidden;
-}
-
-h3, h1 {
-    margin: 0;
-    text-align: center;
-}
-
-body > div > div {
-    padding: 10px;
-}
-
-body > div.title {
-    display: flex;
-    flex: 15;   
-}
-
-body {
-    height: 4000px;
-    background: rgb(45,45,59);
-    background: linear-gradient(355deg, rgb(32, 32, 39) 0%, rgb(58, 58, 72) 100%);    
-    margin: 0;
-    padding: 20px;
-    display: flex;
-    padding: 10px;
-    flex-direction: column;
-    font-family: monospace; 
 }
 
 .content {
@@ -82,26 +16,33 @@ body {
     padding: 10px;
     position: relative;
     z-index: 1;
+    align-content: center;
 }
 
 .content-fill {
     position: absolute;
-    top: 20%; 
-    left: 20%; 
-    right: 20%; 
-    bottom: 20%; 
+    top: 28%; 
+    left: 28%; 
+    right: 28%; 
+    bottom: 28%; 
     background: #6f4041;
     border-radius: 15px;
     z-index: 2;
+    padding: 20px;
+    align-content: center;
 }
 
-.header, .upper-body {
-    position: relative;
-}
-
-.content-container {
-    position: relative;
-    flex: 1;
+.choose-menu {
+    position: absolute;
+    top: 28%; 
+    left: 28%; 
+    right: 28%; 
+    bottom: 28%; 
+    background: #6f4041;
+    border-radius: 15px;
+    z-index: 2;
+    padding: 20px;
+    align-content: center;
 }
 
 * {
@@ -122,55 +63,42 @@ body > div > div {
     padding: 10px;
 }
 
-body > div.title {
+
+
+.title {
     display: flex;
     flex: 15;   
 }
 
-body > div.title > div.logo {
+.logo {
     flex: 50;
     text-align: center;
 }
 
-body > div.header, body > div.upper-body {
+.upper-body {
     display: flex;
     flex: 15;
     position: relative; 
 }
 
-body > div.header > div.name, body > div.upper-body > div.name {
+.name {
     flex: 50;
     text-align: center;
 }
 
-body > div.header > div.content, body > div.upper-body > div.content {
+.content {
     flex: 1;
 }
 
-body > div.middle-body, body > div.lower-body, body > div.footer {
+.footer {
     display: flex;
     flex: 15;
 }
 
-body > div.middle-body > div.name, body > div.lower-body > div.name, body > div.footer > div.name {
-    flex: 50;
-    text-align: center;
-}
-
-
-body > div.header, body > div.upper-body {
+.header{
     display: flex;
     flex: 15;
     position: relative; 
-}
-
-body > div.header > div.name, body > div.upper-body > div.name {
-    flex: 50;
-    text-align: center;
-}
-
-body > div.header > div.content, body > div.upper-body > div.content {
-    flex: 1;
 }
 
 body > div.middle-body, body > div.lower-body, body > div.footer {

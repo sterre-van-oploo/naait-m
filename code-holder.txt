@@ -1,71 +1,10 @@
-    
-    
-        <div class="header"> 
-            <div class="content-fill"></div> 
-            <div class="name">
-                <div class="content">
-                    <!-- SPACER -->
-                </div>
-            </div>
-        </div>    
-        <div class="upper-body"> 
-            <div class="content-fill"></div> 
-            <div class="name">
-                <div class="content">
-                    <!-- SPACER -->
-                </div>
-            </div>
-        </div>
-    
-    
-        <div class="middle-body"> 
-            <div class="spacer-1">
-                <div class="content">
-                    <!-- SPACER -->
-                </div>
-            </div>
-            <div class="name">
-                <div class="content"></div>
-            </div>
-            <div class="spacer-2">
-                <div class="content">
-                    <!-- SPACER -->
-                </div>
-            </div>
-        </div>
-    
-    
-        <div class="lower-body">
-            <div class="spacer-1">
-                <div class="content">
-                    <!-- SPACER -->
-                </div>
-            </div>
-            <div class="name">
-                <div class="content"></div>
-            </div>
-            <div class="spacer-2">
-                <div class="content">
-                    <!-- SPACER -->
-                </div>
-            </div>
-        </div>
-    
-    
-        <div class="footer"> 
-            <div class="spacer-1">
-                <div class="content">
-                    <!-- SPACER -->
-                </div>
-            </div>
-            <div class="name">
-                <div class="content"></div>
-            </div>
-            <div class="spacer-2">
-                <div class="content">
-                    <!-- SPACER -->
-                </div>
-            </div>
-        </div>
-    
-
+.content {
+    background: #612e2e;
+    height: 100%;
+    width: 100%; 
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    align-content: center;
+}

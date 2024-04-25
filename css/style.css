@@ -10,12 +10,15 @@ body {
 }
 
 .content {
+    position: absolute;
+    top: 20%; 
+    left: 20%; 
+    right: 20%; 
+    bottom: 20%; 
     background: #612e2e;
-    height: 100%;
-    border-radius: 10px;
-    padding: 10px;
-    position: relative;
-    z-index: 1;
+    border-radius: 15px;
+    z-index: 2;
+    padding: 20px;
     align-content: center;
 }
 
@@ -93,17 +96,20 @@ body > div > div {
 .footer {
     display: flex;
     flex: 15;
+    position: relative; /* Added */
 }
 
 .header{
     display: flex;
     flex: 15;
     position: relative; 
+    position: relative; /* Added */
 }
 
 body > div.middle-body, body > div.lower-body, body > div.footer {
     display: flex;
     flex: 15;
+    position: relative; /* Added */
 }
 
 body > div.middle-body > div.name, body > div.lower-body > div.name, body > div.footer > div.name {

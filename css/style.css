@@ -7,39 +7,76 @@ body {
     display: flex;
     padding: 10px;
     flex-direction: column;
+    font-family: monospace;
+    color: #927472;
+    font-weight: bolder;
 }
 
-.content {
+.content-large {
     position: absolute;
-    top: 20%; 
+    top: 1%; 
     left: 20%; 
     right: 20%; 
-    bottom: 20%; 
+    bottom: 15%; 
     background: #612e2e;
-    border-radius: 15px;
+    border-radius: 70px;
     z-index: 2;
     padding: 20px;
     align-content: center;
 }
 
-.content-fill {
+h1 {
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+.content-large-fill {
     position: absolute;
-    top: 28%; 
-    left: 28%; 
-    right: 28%; 
-    bottom: 28%; 
+    top: 19%; 
+    left: 22%; 
+    right: 22%; 
+    bottom: 19%; 
     background: #6f4041;
-    border-radius: 15px;
+    border-radius: 50px;
     z-index: 2;
     padding: 20px;
     align-content: center;
 }
+
+/* MENU */
+.content-menu {
+    position: absolute;
+    top: 10%; 
+    left: 20%; 
+    right: 20%; 
+    bottom: 35%; 
+    background: #612e2e;
+    border-radius: 70px;
+    z-index: 2;
+    padding: 20px;
+    align-content: center;
+}
+
+.content-menu-fill {
+    position: absolute;
+    top: 38%; 
+    left: 22%; 
+    right: 22%; 
+    bottom: 38%; 
+    background: #6f4041;
+    border-radius: 50px;
+    z-index: 2;
+    padding: 20px;
+    align-content: center;
+}
+/* END OF MENU */
 
 .choose-menu {
     position: absolute;
     top: 28%; 
-    left: 28%; 
-    right: 28%; 
+    left: 22%; 
+    right: 22%; 
     bottom: 28%; 
     background: #6f4041;
     border-radius: 15px;
@@ -57,10 +94,9 @@ body {
     visibility: hidden;
 }
 
-h3, h1 {
-    margin: 0;
-    text-align: center;
-}
+
+/* TEXT HERE */
+
 
 body > div > div {
     padding: 10px;
@@ -87,10 +123,6 @@ body > div > div {
 .name {
     flex: 50;
     text-align: center;
-}
-
-.content {
-    flex: 1;
 }
 
 .footer {
